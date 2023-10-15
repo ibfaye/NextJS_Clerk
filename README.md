@@ -2,7 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, install the required package:
+First, clone the repository 
+```bash
+git clone 
+```
+
+and install the required packages:
 
 ```bash
 pnpm install
@@ -12,7 +17,7 @@ npm install
 
 If you have a [Clerk](https://clerk.com/) account, sign In, or Sign Up if not.
 
-Create an new app or use an existing up and copy the following environment variable in your .en.local file in your root directory
+Create an new application or use an existing application and copy the following environment variables in your [`.en.local`] file in the root directory of your project.
 
 ```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=''
@@ -24,7 +29,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 ```
 
-I use [Shadcn/ui](https://ui.shadcn.com/docs/installation/next) component, run the following in the terminal to initialize Shadcn.
+I use [Shadcn/ui](https://ui.shadcn.com/docs/installation/next) components, run the following in the terminal to initialize [`Shadcn`].
 
 ```bash
 pnpm dlx shadcn-ui@latest init
