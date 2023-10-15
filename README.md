@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, clone the repository 
 ```bash
-git clone 
+git clone https://github.com/ibfaye/NextJS_Clerk.git
 ```
 
 and install the required packages:
