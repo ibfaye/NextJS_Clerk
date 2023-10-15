@@ -29,7 +29,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 ```
 
-I use [Shadcn/ui](https://ui.shadcn.com/docs/installation/next) components, run the following in the terminal to initialize `Shadcn`.
+I use [Shadcn/ui](https://ui.shadcn.com/docs/installation/next) components, run the following in the terminal to initialize Shadcn.
 
 ```bash
 pnpm dlx shadcn-ui@latest init
