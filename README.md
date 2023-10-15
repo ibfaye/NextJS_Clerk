@@ -2,16 +2,42 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install the required package:
+
+```bash
+pnpm install
+# or
+npm install
+```
+
+If you have a [Clerk](https://clerk.com/) account, sign In, or Sign Up if not.
+
+Create an new app or use an existing up and copy the following environment variable in your .en.local file in your root directory
+
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=''
+CLERK_SECRET_KEY=''
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+```
+
+I use [Shadcn/ui](https://ui.shadcn.com/docs/installation/next) component, run the following in the terminal to initialize Shadcn.
+
+```bash
+pnpm dlx shadcn-ui@latest init
+# or
+npx shadcn-ui@latest init
+```
+
+Now, you can run the development server:
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -28,6 +54,10 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+To learn more about Clerk, take a look at the following resources:
+
+- [Clerk Documentation](https://clerk.com/docs) - learn about Clerk features and API.
 
 ## Deploy on Vercel
 
